@@ -317,10 +317,14 @@ html {
 .header__menu-item-link-icon {
     font-size: 1.6rem;
 }
-/* app__content */
+/* app__content-silde */
+
+.slider-containert {
+}
+
 .slide-icon__content {
-    background-image: url(../img/banner_slide.png);
     position: relative;
+    background-image: url(../img/banner_slide.png);
     margin-top: 125px;
     padding-top: 22%;
     background-repeat: no-repeat;
@@ -329,16 +333,18 @@ html {
 }
 .slick-dots {
     display: flex;
-    justify-content: flex-end;
-    list-style: none;
     position: absolute;
     right: 36px;
     bottom: 10px;
+    width: auto;
+    list-style: none;
 }
+
 
 .slick-dots-icon {
     padding: 0 5px;
     font-size: 1.6rem;
+    margin: 0;
 }
 
 .slick-dots-icon-btn.active {
@@ -493,6 +499,7 @@ html {
 .slick-next {
     right: -14px;
     background-color: #fff;
+    opacity: 0.8;
 }
 
 .slick-next::before {
@@ -610,6 +617,11 @@ html {
     color: var(--text-color);
     font-size: 1.6rem;
     margin-bottom: 16px;
+    overflow: hidden;
+    display: block;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
 }
 
 /* list-post */
@@ -820,11 +832,8 @@ html {
     text-align: center;
 }
 
-
-
-
 .suggestions-slider {
-    width: 303px;
+    width: 288px;
 }
 
 .slider-container{
