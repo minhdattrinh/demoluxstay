@@ -93,13 +93,20 @@ html {
     }
 }
 
+.mt--10 {
+    margin-top: 10px!important;
+}
+
+
 .mt--24 {
     margin-top: 24px!important;
 }
 
+
 .mt--35 {
     margin-top: 35px!important;
 }
+
 
 .mt--48 {
     margin-top: 48px!important;
@@ -163,7 +170,7 @@ img {
 }
 
 .ml-20 {
-    margin-left: 20%;
+    margin-left: 20% !important;
 }
 
 .border-bt {
@@ -172,4 +179,19 @@ img {
 
 .border-top {
     border-top: 1px solid #F2F2F2;
+}
+
+.w-235px {
+    width: 235px !important;
+}
+.number-pp {
+    position: relative !important;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.no-cursor {
+    cursor: no-drop !important;
 }
